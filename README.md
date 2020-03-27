@@ -2,6 +2,20 @@
 
 [What is Notepad++](https://notepad-plus-plus.org/)
 
+## Markdown
+What is done right:
+- "Light" version is for light themes. The colors are from the default Notepad++ theme.
+- "Dark" version is for dark themes. The colors are from the Zenburn theme.
+- The text background is kept transparent => compatibility with more than one theme.
+- The text style is overrided only if needed => compatibility with more than one theme.
+- Any title levels are supported.
+- Bold and italic styling doesn't stop at first word.
+
+Known limitations:
+- Strikethrough text is rendered with a different color, because Notepad++ doesn't support ~~strikethrough~~ styling.
+- Nesting italic inside bold or bold inside italic won't combine both italic and bold.\
+`**this _is my_ text**` will render **this** _is my_ **text**.
+
 ## Notes about the User Defined Languages (UDL)
 
 [Unofficial UDL documentation](http://ivan-radic.github.io/udl-documentation/)
