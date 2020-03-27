@@ -21,7 +21,9 @@
 
 [Style configurator](https://npp-user-manual.org/docs/preferences/#style-configurator)
 
-## Markdown
+## Supported languages
+
+### Markdown
 What is done right:
 - "Light" version is for light themes. The colors are from the default Notepad++ theme.
 - "Dark" version is for dark themes. The colors are from the Zenburn theme.
@@ -35,10 +37,10 @@ Known limitations:
 - Nesting italic inside bold or bold inside italic won't combine both italic and bold.\
 `**this _is my_ text**` will render **this** _is my_ **text**.
 
-## smartBASIC
+### smartBASIC
 Language used by Laird Technologies.
 
-## Spice
+### Spice
 Language used by the SPICE simulation engine.
 
 ## Notes about the User Defined Languages (UDL)
