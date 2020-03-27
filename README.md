@@ -2,6 +2,21 @@
 
 [What is Notepad++](https://notepad-plus-plus.org/)
 
+[Supported programming languages in Notepad++](https://npp-user-manual.org/docs/programing-languages/)
+
+[UDL documenation](https://npp-user-manual.org/docs/user-defined-language-system/)
+
+[Unofficial UDL documentation](http://ivan-radic.github.io/udl-documentation/)
+
+[Style configurator](https://npp-user-manual.org/docs/preferences/#style-configurator)
+
+## How to use
+1. Download the language files you want
+1. Open an Explorer window and go to `%appdata%\Notepad++\userDefineLangs`
+1. Copy (or move) the previously downloaded XML files right there
+1. (close and re)Open Notepad++ to see the new languages available
+1. (Optional) Select the highlighting language manually
+
 ## Markdown
 What is done right:
 - "Light" version is for light themes. The colors are from the default Notepad++ theme.
@@ -17,8 +32,6 @@ Known limitations:
 `**this _is my_ text**` will render **this** _is my_ **text**.
 
 ## Notes about the User Defined Languages (UDL)
-
-[Unofficial UDL documentation](http://ivan-radic.github.io/udl-documentation/)
 
 - `fgColor` = foreground color (= text color)
 - `bgColor` = text _background_ color
