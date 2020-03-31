@@ -34,8 +34,9 @@ What is done right:
 
 Known limitations:
 - Strikethrough text is rendered with a different color, because Notepad++ doesn't support ~~strikethrough~~ styling.
+- Underscores in URLs can generate italic texts like in this example: [ image ] (https://github.com/test_image.png _"Alt text")_
 - Nesting italic inside bold or bold inside italic won't combine both italic and bold.\
-`**this _is my_ text**` will render **this** _is my_ **text**.
+`**this _is my_ text**` will render '**this** _is my_ **text**'.
 
 ### smartBASIC
 Language used by Laird Technologies.
